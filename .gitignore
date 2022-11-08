@@ -1,0 +1,8 @@
+# ignorar la carpeta que crea postgres en docker con la data de la tabla
+postgres-data
+
+docker/postgres/postgres-data
+
+Dashboard.pbix
+
+data.zip
