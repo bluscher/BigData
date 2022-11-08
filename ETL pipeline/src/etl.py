@@ -47,6 +47,7 @@ def extract(path):
             if directory == dir_charges:
              tbl = "chargebacks"
              headname = headCharge
+            else: print("No existe las carpetas de datos ")
                     
         # itera con todo los archivos del directorio
         for filename in os.listdir(directory):
@@ -107,6 +108,10 @@ def remove(path):
         print("Error mientras se eliminó los archivos: " + str(e.strerror))
 
 def transform_load():
+
+    """MEJORA >> PREGUNTAR SI LAS TABLAS STAGING EXISTEN ANTES 
+    DE TRANSFORMAR RENOMBRARLAS LUEGO DE TERMINAR"""
+
     cur = create_engine(f'postgresql://{uid}:{pwd}@{server}:{port}/{db}')
     conn = cur.connect()
     print("Paso1 - tranforma los valores 0 que tiene la tabla en un valor default")
@@ -156,23 +161,23 @@ def transform_load():
 try: 
     
     #call extract function
-    print("- EXTRACT-DATA -")
-    print("#--------1. PAYMENTS -----------#")
+    print("EXTRACT-DATA -")
+    print("#---Start Extract - PAYMENTS -----------#")
     df = extract(dir_payments)
-    print("#--------END - PAYMENTS --------#")
+    print("#---END Extract - PAYMENTS --------#")
     print("")
-    print("#--------2. CHARGEBACKS --------#")
+    print("#---Start Extract - CHARGEBACKS --------#")
     df = extract(dir_charges)
-    print("#--------END - CHARGEBACKS -----#")
+    print("#---END Extract - CHARGEBACKS -----#")
     print("END - EXTRACT-DATA -")
     print("")
 
     #remove(dir_charges)
     #df = listDir()}
     
-    print("- TRANSFORM & LOAD DATA -")
+    print("TRANSFORM & LOAD DATA -")
     transform_load()
-    print("- END - TRANSFORM & LOAD DATA -")
+    print("END - TRANSFORM & LOAD DATA -")
 
 
 except Exception as e:
