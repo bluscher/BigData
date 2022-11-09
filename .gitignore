@@ -6,3 +6,4 @@ docker/postgres/postgres-data
 Dashboard.pbix
 
 data.zip
+data/*
