@@ -183,7 +183,7 @@ def load_Cube():
 
 #main
 try: 
-    start = time.time()
+    t_start = time.time()
     #call extract function
     print("Grupo 99 ....>> runing ETL")
     print("(E)XTRACT DATA")
@@ -207,10 +207,10 @@ try:
      print ("(L)OAD DATA ")
      load_Cube()
      print (">>END - LOAD DATA ")
-     end = time.time()
+     t_end = time.time()
      print("")
-     print("El tiempo total de ejecucion del ETL es: ")
-     print("  ",end - start, "Segundos")
+     print("El tiempo total de ejecucion del ETL es: ", end=" ")
+     print("  ",t_end - t_start, "Segundos")
 
 except Exception as e:
     print("Error mientras extracción de datos: " + str(e)) 
