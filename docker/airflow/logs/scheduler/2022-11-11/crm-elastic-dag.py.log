@@ -1,0 +1,210 @@
+[2022-11-11 02:22:41,440] {processor.py:153} INFO - Started process (PID=177) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:22:41,442] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:22:41,444] {logging_mixin.py:115} INFO - [2022-11-11 02:22:41,444] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:22:41,479] {logging_mixin.py:115} INFO - [2022-11-11 02:22:41,476] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:22:41,487] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:22:41,704] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.270 seconds
+[2022-11-11 02:23:11,854] {processor.py:153} INFO - Started process (PID=182) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:23:11,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:23:11,859] {logging_mixin.py:115} INFO - [2022-11-11 02:23:11,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:23:11,877] {logging_mixin.py:115} INFO - [2022-11-11 02:23:11,875] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:23:11,879] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:23:11,912] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.065 seconds
+[2022-11-11 02:23:42,009] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:23:42,012] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:23:42,014] {logging_mixin.py:115} INFO - [2022-11-11 02:23:42,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:23:42,039] {logging_mixin.py:115} INFO - [2022-11-11 02:23:42,036] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:23:42,040] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:23:42,079] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.078 seconds
+[2022-11-11 02:24:12,203] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:24:12,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:24:12,208] {logging_mixin.py:115} INFO - [2022-11-11 02:24:12,208] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:24:12,227] {logging_mixin.py:115} INFO - [2022-11-11 02:24:12,225] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:24:12,228] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:24:12,258] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.068 seconds
+[2022-11-11 02:29:46,025] {processor.py:153} INFO - Started process (PID=176) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:29:46,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:29:46,030] {logging_mixin.py:115} INFO - [2022-11-11 02:29:46,030] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:29:46,084] {logging_mixin.py:115} INFO - [2022-11-11 02:29:46,081] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:29:46,087] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:29:46,131] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.111 seconds
+[2022-11-11 02:30:16,247] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:30:16,250] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:30:16,252] {logging_mixin.py:115} INFO - [2022-11-11 02:30:16,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:30:16,272] {logging_mixin.py:115} INFO - [2022-11-11 02:30:16,269] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:30:16,273] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:30:16,309] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.073 seconds
+[2022-11-11 02:30:46,398] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:30:46,400] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:30:46,401] {logging_mixin.py:115} INFO - [2022-11-11 02:30:46,401] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:30:46,416] {logging_mixin.py:115} INFO - [2022-11-11 02:30:46,414] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:30:46,417] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:30:46,451] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.057 seconds
+[2022-11-11 02:31:16,544] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:31:16,545] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:31:16,547] {logging_mixin.py:115} INFO - [2022-11-11 02:31:16,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:31:16,565] {logging_mixin.py:115} INFO - [2022-11-11 02:31:16,562] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:31:16,566] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:31:16,603] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.064 seconds
+[2022-11-11 02:31:46,702] {processor.py:153} INFO - Started process (PID=196) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:31:46,704] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:31:46,706] {logging_mixin.py:115} INFO - [2022-11-11 02:31:46,706] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:31:46,723] {logging_mixin.py:115} INFO - [2022-11-11 02:31:46,720] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:31:46,725] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:31:46,760] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.064 seconds
+[2022-11-11 02:32:16,850] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:32:16,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:32:16,856] {logging_mixin.py:115} INFO - [2022-11-11 02:32:16,855] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:32:16,876] {logging_mixin.py:115} INFO - [2022-11-11 02:32:16,873] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:32:16,878] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:32:16,912] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.068 seconds
+[2022-11-11 02:32:47,036] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:32:47,038] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:32:47,041] {logging_mixin.py:115} INFO - [2022-11-11 02:32:47,040] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:32:47,056] {logging_mixin.py:115} INFO - [2022-11-11 02:32:47,053] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes'
+[2022-11-11 02:32:47,058] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:32:47,099] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.067 seconds
+[2022-11-11 02:34:25,852] {processor.py:153} INFO - Started process (PID=175) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:34:25,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:34:25,857] {logging_mixin.py:115} INFO - [2022-11-11 02:34:25,856] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:34:25,893] {logging_mixin.py:115} INFO - [2022-11-11 02:34:25,889] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes.vs_modules'
+[2022-11-11 02:34:25,894] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:34:25,937] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.098 seconds
+[2022-11-11 02:34:56,011] {processor.py:153} INFO - Started process (PID=181) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:34:56,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:34:56,014] {logging_mixin.py:115} INFO - [2022-11-11 02:34:56,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:34:56,044] {logging_mixin.py:115} INFO - [2022-11-11 02:34:56,038] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes.vs_modules'
+[2022-11-11 02:34:56,047] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:34:56,076] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.071 seconds
+[2022-11-11 02:35:26,180] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:35:26,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:35:26,186] {logging_mixin.py:115} INFO - [2022-11-11 02:35:26,186] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:35:26,228] {logging_mixin.py:115} INFO - [2022-11-11 02:35:26,211] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes.vs_modules'
+[2022-11-11 02:35:26,231] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:35:26,307] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.135 seconds
+[2022-11-11 02:35:56,478] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:35:56,479] {processor.py:641} INFO - Processing file /opt/airflow/dags/crm-elastic-dag.py for tasks to queue
+[2022-11-11 02:35:56,481] {logging_mixin.py:115} INFO - [2022-11-11 02:35:56,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:35:56,504] {logging_mixin.py:115} INFO - [2022-11-11 02:35:56,497] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/crm-elastic-dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/crm-elastic-dag.py", line 4, in <module>
+    from includes.vs_modules.test import hello
+ModuleNotFoundError: No module named 'includes.vs_modules'
+[2022-11-11 02:35:56,505] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/crm-elastic-dag.py
+[2022-11-11 02:35:56,535] {processor.py:161} INFO - Processing /opt/airflow/dags/crm-elastic-dag.py took 0.061 seconds
