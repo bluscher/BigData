@@ -186,7 +186,7 @@ try:
     t_start = time.time()
     #call extract function
     print("Grupo 99 ....>> runing ETL")
-    print("(E)XTRACT DATA")
+    print("[E]XTRACT DATA")
     print("  begin Extract >> PAYMENTS")
     df = extract(dir_payments)
     print("  >>end Extract PAYMENTS..")
@@ -194,21 +194,20 @@ try:
     print("  begin Extract >> CHARGEBACKS")
     df = extract(dir_charges)
     print("  >>end Extract CHARGEBACKS..")
-    print(">>END - EXTRACT-DATA")
+    print(">>end - EXTRACT-DATA")
     print("")
 
     #remove(dir_charges)
     #df = listDir()}
     if flag_dbStaging == 1:
-     print("(T)RANSFORM DATA")
+     print("[T]RANSFORM DATA")
      transform_toCube()
-     print(">>END - TRANSFORM DATA")
+     print(">>end - TRANSFORM DATA")
      print("")
-     print ("(L)OAD DATA ")
+     print ("[L]OAD DATA ")
      load_Cube()
-     print (">>END - LOAD DATA ")
+     print (">>end - LOAD DATA ")
      t_end = time.time()
-     print("")
      print("El tiempo total de ejecucion del ETL es: ", end=" ")
      print("  ",t_end - t_start, "Segundos")
 

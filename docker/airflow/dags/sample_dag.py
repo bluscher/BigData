@@ -21,14 +21,26 @@ with DAG(
         task_id='start'
     )
 
-    print_hello_world = BashOperator(
-        task_id='print_hello_world',
-        bash_command='echo "HelloWorld!"'
+    t1 = BashOperator(
+        task_id='Extract',
+        bash_command='echo "Extract CSV"'
+    )
+
+    t2 = BashOperator(
+        task_id='Transform',
+        bash_command='echo "Transform Data"'
+    )
+
+    t3 = BashOperator(
+        task_id='Load',
+        bash_command='echo "Load Data"'
     )
 
     end_task = EmptyOperator(
         task_id='end'
     )
 
-start_task >> print_hello_world
-print_hello_world >> end_task
+start_task >> t1
+t1>> t2
+t2 >> t3
+t3 >> end_task
