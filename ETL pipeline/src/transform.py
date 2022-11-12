@@ -58,9 +58,9 @@ try:
     t_start = time.time()
     print("[T]RANSFORM DATA")
     transform_toCube()
-    print(">>end - TRANSFORM DATA")
+    print("[end] - TRANSFORM DATA")
     t_end = time.time()
-    print("El tiempo total de ejecucion del script de [tranformacion] es: ", end=" ")
+    print(">>El tiempo total de ejecucion del script de [tranformacion] es: ", end=" ")
     print("  ",t_end - t_start, "Segundos")
 
 except Exception as e:

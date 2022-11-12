@@ -119,9 +119,9 @@ try:
     print("  begin Extract >> CHARGEBACKS")
     df = extract(dir_charges)
     print("  >>end Extract CHARGEBACKS..")
-    print(">>end - EXTRACT-DATA")
+    print("[end] - EXTRACT-DATA")
     t_end = time.time()
-    print("El tiempo total de ejecucion del script [extract] es: ", end=" ")
+    print(">>El tiempo total de ejecucion del script [extract] es: ", end=" ")
     print("  ",t_end - t_start, "Segundos")
 
 except Exception as e:
