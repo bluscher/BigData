@@ -5,14 +5,23 @@ from airflow.operators.python import PythonOperator
 
 from datetime import datetime, timedelta
 
-from airflow import DAG
-from airflow.operators.empty import EmptyOperator
-from airflow.operators.bash import BashOperator
+"""
+from includes import extract
+from includes import transform
+from includes import load"""
 
-from datetime import datetime
+
+def _processExtract():
+    print("Prueba Extracto EXITOSO!")
+
+def _processTransform():
+    print("Prueba Transform EXITOSO!")
+
+def _processLoad():
+    print("Prueba Load EXITOSO!")
 
 with DAG(
-    dag_id='first_sample_dag',
+    dag_id='ETL',
     start_date=datetime(2022, 11, 11),
     #schedule_interval=None
     schedule_interval='@daily',
@@ -23,19 +32,20 @@ with DAG(
         task_id='start'
     )
 
-    t1 = BashOperator(
+    t1 = PythonOperator(
         task_id='Extract',
-        bash_command='echo "Extract CSV"'
+        python_callable=_processExtract
+        #python_callable=extract
     )
 
-    t2 = BashOperator(
+    t2 = PythonOperator(
         task_id='Transform',
-        bash_command='echo "Transform Data"'
+        python_callable=_processTransform
     )
 
-    t3 = BashOperator(
+    t3 = PythonOperator(
         task_id='Load',
-        bash_command='echo "Load Data"'
+        python_callable=_processLoad
     )
 
     end_task = EmptyOperator(

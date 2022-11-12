@@ -2,7 +2,7 @@ version: '3.8'
 
 x-common:
   &common
-  image: apache/airflow:2.3.0
+  image: apache/airflow:2.4.2
   user: "${AIRFLOW_UID}:0"
   env_file: 
     - .env
@@ -11,6 +11,7 @@ x-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - /var/run/docker.sock:/var/run/docker.sock
+    - ./includes:/opt/airflow/includes
 
 x-depends-on:
   &depends-on
