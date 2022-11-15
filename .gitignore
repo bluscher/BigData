@@ -2,6 +2,7 @@
 postgres-data
 
 docker/postgres/postgres-data
+docker/*
 
 Dashboard.pbix
 
