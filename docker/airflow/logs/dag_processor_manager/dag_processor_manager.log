@@ -3844,3 +3844,59 @@ File Path                             PID    Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/sample_dag.py                                1           0  4.69s           2022-11-12T14:08:13
 ================================================================================
 [2022-11-12T14:08:31.114+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-21T04:32:19.181+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-21T04:32:19.195+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-21T04:32:19.196+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-21T04:32:19.202+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-21T04:32:19.270+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-11-21T04:32:19.462+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sample_dag.py         178  0.04s             0           0
+/opt/airflow/dags/DAG_etl_testDef.py    176  0.06s             0           0
+================================================================================
+[2022-11-21T04:32:50.077+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                1           0  1.77s           2022-11-21T04:32:21
+/opt/airflow/dags/DAG_etl_testDef.py                           1           0  1.78s           2022-11-21T04:32:21
+================================================================================
+[2022-11-21T04:33:20.098+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                1           0  0.71s           2022-11-21T04:32:52
+/opt/airflow/dags/DAG_etl_testDef.py                           1           0  0.79s           2022-11-21T04:32:52
+================================================================================
+[2022-11-21T04:33:50.549+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                1           0  1.50s           2022-11-21T04:33:24
+/opt/airflow/dags/DAG_etl_testDef.py                           1           0  1.24s           2022-11-21T04:33:24
+================================================================================
+[2022-11-21T04:34:21.283+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                1           0  0.46s           2022-11-21T04:33:55
+/opt/airflow/dags/DAG_etl_testDef.py                           1           0  0.49s           2022-11-21T04:33:55
+================================================================================
+[2022-11-21T04:34:25.683+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-21T04:34:25.686+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-21T04:34:25.775+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-21T04:34:28.738+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-21T04:34:28.922+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-21T04:34:29.153+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
