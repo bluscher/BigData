@@ -1,0 +1,24 @@
+[2022-11-21T04:33:45.877+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: ETL.Load manual__2022-11-21T04:33:40.842654+00:00 [queued]>
+[2022-11-21T04:33:45.892+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: ETL.Load manual__2022-11-21T04:33:40.842654+00:00 [queued]>
+[2022-11-21T04:33:45.893+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-21T04:33:45.893+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-21T04:33:45.894+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-21T04:33:45.914+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): Load> on 2022-11-21 04:33:40.842654+00:00
+[2022-11-21T04:33:45.921+0000] {standard_task_runner.py:55} INFO - Started process 218 to run task
+[2022-11-21T04:33:45.926+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'ETL', 'Load', 'manual__2022-11-21T04:33:40.842654+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/DAG_etl_testDef.py', '--cfg-path', '/tmp/tmpnvcxvblv']
+[2022-11-21T04:33:45.929+0000] {standard_task_runner.py:83} INFO - Job 7: Subtask Load
+[2022-11-21T04:33:46.048+0000] {task_command.py:376} INFO - Running <TaskInstance: ETL.Load manual__2022-11-21T04:33:40.842654+00:00 [running]> on host 0d6a4c0cc4a1
+[2022-11-21T04:33:46.214+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ETL
+AIRFLOW_CTX_TASK_ID=Load
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-21T04:33:40.842654+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-21T04:33:40.842654+00:00
+[2022-11-21T04:33:46.215+0000] {logging_mixin.py:120} INFO - Prueba Load EXITOSO!
+[2022-11-21T04:33:46.216+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-21T04:33:46.230+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=ETL, task_id=Load, execution_date=20221121T043340, start_date=20221121T043345, end_date=20221121T043346
+[2022-11-21T04:33:46.261+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-21T04:33:46.298+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

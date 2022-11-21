@@ -1,0 +1,3 @@
+# START CRON JOB
+0 0 * * * python /etl.py 
+# END CRON JOB
