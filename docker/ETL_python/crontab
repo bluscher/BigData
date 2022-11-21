@@ -1,3 +1,8 @@
 # START CRON JOB
-0 0 * * * python /etl.py 
+#job a las 0am todo los dias
+#0 0 * * * python /etl.py 
+
+#job cada 15minutos
+*/15 * * * * python /etl.py 
+
 # END CRON JOB
