@@ -179,10 +179,10 @@ def load_Cube():
     cur.execute("update fact_chargebacks set debit_date  = td.id_tiempo from stg_chargebacks sc inner join tiempo_dim td on (td.fecha = to_date(sc.debit_date ::text, 'YYYYMMDD'));")
 
     print("[7/7] - TABLAS STAGING SET PROCESADAS")
-    cur.execute("DROP TABLE IF EXISTS fact_payments_procesado;")
-    cur.execute("DROP TABLE IF EXISTS fact_chargebacks_procesado;")
-    cur.execute("ALTER TABLE fact_payments RENAME TO fact_payments_procesado;")
-    cur.execute("ALTER TABLE fact_chargebacks RENAME TO fact_chargebacks_procesado;")
+    cur.execute("DROP TABLE IF EXISTS stg_payments_procesado;")
+    cur.execute("DROP TABLE IF EXISTS stg_chargebacks_procesado;")
+    cur.execute("ALTER TABLE stg_payments RENAME TO stg_payments_procesado;")
+    cur.execute("ALTER TABLE stg_chargebacks RENAME TO stg_chargebacks_procesado;")
     
     conn.close()
     cur.dispose()
