@@ -3,7 +3,7 @@ postgres-data
 
 docker/postgres/postgres-data
 docker/airflow/aiflow-data
-docker/airflow/logs
+docker/airflow/logs/*
 
 docker/ETL_python/data
 
